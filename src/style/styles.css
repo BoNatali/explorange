@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Bold.otf');
+}
+
+.text {
+    -fx-font-family: "Quicksand";
+    -fx-background-color:#00cc92;
+}
+
+.root {
+     -fx-background-repeat: repeat;
+     
+      -fx-background-color:#009f72;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+
+.image-view {
+	-fx-effect: dropshadow( gaussian , rgba(88,131,108,0.3) , 1,1,1,1 );
+}
+
+
+#gamepad-opt {
+	 -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow( gaussian , rgba(146,134,126,0.5) , 0,0,0,1 );
+}
+
+#gamepad-opt:hover {
+	-fx-effect: dropshadow( gaussian , rgba(213,97,94,0.5) , 2,2,2,2 );
+}
+
+#info-img {
+	
+	-fx-effect: dropshadow( gaussian , rgba(88,131,108,0.3) , 1,1,1,1 );
+}
+
+#center{
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#center: hover{
+	-fx-effect: dropshadow( gaussian , rgba(146,134,126,0.5) , 1,1,1,1 );
+}
+
+#info-img:hover {
+	-fx-effect: dropshadow( gaussian , rgba(213,97,94,0.5) , 2,1,2,2 );
+}
+
+#item-labels {
+	
+}
+
+#subitem-labels {
+	
+}
+
+#status-labels {
+	
+}
+
+
+
+.text-field {
+	-fx-border-color: #4fbc82;
+	-fx-background-radius: 2;
+	-fx-highlight-fill: #d5615e;
+	-fx-highlight-text-fill: #fff;
+}
